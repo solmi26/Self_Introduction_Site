@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="container">
+    <header id = "header"> 
+        <nav class ="menu">
+            <ul>
+                <li><a href = "./main.jsp" <b>Home</b></a></li>
+                <li><a href = "about.html" <b>About</b></a></li>
+                <li><a href = "favorites.html" <b>What I love</b></a></li>
+                <li><a href = "contact.html" <b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header> 
+  <div class="list">
+      <div class="one">
+        <span class="profile"><img src="./imgs/me.jpg" width="550px;" height="550px" alt=""/></span> 
+        <h3><strong>Hello! I'm Stella.</strong> <br>You can scroll down if you want to see me more!</h3>
+      </div>
+  </div>
+
+</body>
+</html>
